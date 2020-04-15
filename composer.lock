@@ -1,0 +1,54 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "a048c078ca90c3cb5747d0da208950c3",
+    "packages": [
+        {
+            "name": "irice/single-php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iridance/SinglePHP.git",
+                "reference": "9202ced3343191273b919e2b25a30d83f9be9a92"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iridance/SinglePHP/zipball/9202ced3343191273b919e2b25a30d83f9be9a92",
+                "reference": "9202ced3343191273b919e2b25a30d83f9be9a92",
+                "shasum": ""
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "single\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "irice",
+                    "email": "sgetaplus@gmail.com"
+                }
+            ],
+            "description": "Upgrade to composer version from legacy php",
+            "time": "2020-04-15T09:24:12+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "irice/single-php": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}

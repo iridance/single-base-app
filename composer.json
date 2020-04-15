@@ -1,0 +1,21 @@
+{
+    "name": "irice/single-app",
+    "description": "Single app base app template",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "irice",
+            "email": "irice@open-life.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "irice/single-php": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        }
+    }
+}
