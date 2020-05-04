@@ -4,7 +4,7 @@ require __DIR__ . '/../vendor/autoload.php';
 
 $config = [
     'APP_PATH' => __DIR__ . '/../app',
-    'PATH_MOD' => 'REWRITE',
+    'PATH_MOD' => 'PATH_INFO',
 ];
 
-\single\Core::getInstance($config)->run();
+\Single\Core::getInstance($config)->run();
